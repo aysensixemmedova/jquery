@@ -1,0 +1,41 @@
+// // .box{
+//     height: 150px;
+//     width: 150px;
+//     background: crimson;
+//     // margin: 15px;
+// // } 
+// #accardion{
+//     .act{
+//         background: crimson;
+//         color: white;
+//     }
+//     button{
+//         width: 100%;
+//         padding: 15px;
+//         background: darkcyan;
+//         color: white;
+//     }
+//     .panel{
+//         display: none;
+//     }
+// }
+
+#tabmenu{
+    button{
+        padding: 15px;
+        background: darkgreen;
+        color: white;
+
+    }
+    .panel{
+        display: none;
+        padding: 20px;
+        margin: 5px;
+        border: 1px solid green;
+        border-radius:  0 0 15px 15px;
+        &.active{
+            display: block;
+
+        }
+    }
+}

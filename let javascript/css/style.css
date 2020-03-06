@@ -1,0 +1,18 @@
+#tabmenu button {
+  padding: 15px;
+  background: darkgreen;
+  color: white;
+}
+
+#tabmenu .panel {
+  display: none;
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid green;
+  border-radius: 0 0 15px 15px;
+}
+
+#tabmenu .panel.active {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
